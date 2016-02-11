@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AEF3B4B01C6C14C200AA89D7 /* ipw9513bk999.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AEF3B4AF1C6C14C200AA89D7 /* ipw9513bk999.jpg */; };
+		AEF3B4B51C6C14D800AA89D7 /* low-poly-iphone-6-wallpaper.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AEF3B4B11C6C14D800AA89D7 /* low-poly-iphone-6-wallpaper.jpg */; };
+		AEF3B4B61C6C14D800AA89D7 /* Low-polygon-iphone-6-background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AEF3B4B21C6C14D800AA89D7 /* Low-polygon-iphone-6-background.jpg */; };
+		AEF3B4B71C6C14D800AA89D7 /* lowpolybats1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AEF3B4B31C6C14D800AA89D7 /* lowpolybats1.jpg */; };
+		AEF3B4B81C6C14D800AA89D7 /* lowpolybats2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AEF3B4B41C6C14D800AA89D7 /* lowpolybats2.jpg */; };
 		AEFE77471C6A253200C982C1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AEFE77461C6A253200C982C1 /* main.m */; };
 		AEFE774A1C6A253200C982C1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AEFE77491C6A253200C982C1 /* AppDelegate.m */; };
 		AEFE774D1C6A253200C982C1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AEFE774C1C6A253200C982C1 /* ViewController.m */; };
@@ -19,6 +24,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AEF3B4AF1C6C14C200AA89D7 /* ipw9513bk999.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ipw9513bk999.jpg; sourceTree = "<group>"; };
+		AEF3B4B11C6C14D800AA89D7 /* low-poly-iphone-6-wallpaper.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "low-poly-iphone-6-wallpaper.jpg"; sourceTree = "<group>"; };
+		AEF3B4B21C6C14D800AA89D7 /* Low-polygon-iphone-6-background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Low-polygon-iphone-6-background.jpg"; sourceTree = "<group>"; };
+		AEF3B4B31C6C14D800AA89D7 /* lowpolybats1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = lowpolybats1.jpg; sourceTree = "<group>"; };
+		AEF3B4B41C6C14D800AA89D7 /* lowpolybats2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = lowpolybats2.jpg; sourceTree = "<group>"; };
 		AEFE77421C6A253200C982C1 /* A1AlanSimon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = A1AlanSimon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEFE77461C6A253200C982C1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		AEFE77481C6A253200C982C1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -113,6 +123,11 @@
 		AEFE775E1C6A255E00C982C1 /* imgs */ = {
 			isa = PBXGroup;
 			children = (
+				AEF3B4B11C6C14D800AA89D7 /* low-poly-iphone-6-wallpaper.jpg */,
+				AEF3B4B21C6C14D800AA89D7 /* Low-polygon-iphone-6-background.jpg */,
+				AEF3B4B31C6C14D800AA89D7 /* lowpolybats1.jpg */,
+				AEF3B4B41C6C14D800AA89D7 /* lowpolybats2.jpg */,
+				AEF3B4AF1C6C14C200AA89D7 /* ipw9513bk999.jpg */,
 			);
 			name = imgs;
 			sourceTree = "<group>";
@@ -183,9 +198,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AEF3B4B51C6C14D800AA89D7 /* low-poly-iphone-6-wallpaper.jpg in Resources */,
+				AEF3B4B81C6C14D800AA89D7 /* lowpolybats2.jpg in Resources */,
+				AEF3B4B61C6C14D800AA89D7 /* Low-polygon-iphone-6-background.jpg in Resources */,
 				AEFE77551C6A253200C982C1 /* LaunchScreen.storyboard in Resources */,
+				AEF3B4B01C6C14C200AA89D7 /* ipw9513bk999.jpg in Resources */,
 				AEFE77521C6A253200C982C1 /* Assets.xcassets in Resources */,
 				AEFE77501C6A253200C982C1 /* Main.storyboard in Resources */,
+				AEF3B4B71C6C14D800AA89D7 /* lowpolybats1.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -350,6 +370,7 @@
 				AEFE775B1C6A253200C982C1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
