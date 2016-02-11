@@ -9,5 +9,12 @@
 #import <UIKit/UIKit.h>
 
 @interface UserViewController : UIViewController
+{
+    IBOutlet UISlider *sldAge;
+    IBOutlet UILabel *lblAge;
+}
+
+@property (nonatomic, strong)IBOutlet UISlider *sldAge;
+@property (nonatomic, strong)IBOutlet UILabel *lblAge;
 
 @end
