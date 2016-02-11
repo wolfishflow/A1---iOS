@@ -13,7 +13,7 @@
 @end
 
 @implementation UserViewController
-@synthesize sldAge, lblAge;
+@synthesize sldAge, lblAge, submit, tfEmail, tfName;
 
 
 
@@ -30,9 +30,9 @@
 
 -(void)updateLabel
 {
-    float age = sldAge.value;
+    //float age = sldAge.value;
     int age2 = sldAge.value;
-    NSString *strAge = [NSString stringWithFormat:@"%f", age];
+    //NSString *strAge = [NSString stringWithFormat:@"%f", age];
     NSString *strAge2 = [NSString stringWithFormat:@"%d", age2];
     [lblAge setText:strAge2];
 }
@@ -42,17 +42,25 @@
     [self updateLabel];
 }
 
-
-
-
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+-(IBAction)alertHomies:(id)sender
+{
+    
+    NSString *name = tfName.text;
+    NSString *email = tfEmail.text;
+    
+    UIAlertController *alert = [UIAlertController alertControllerWithTitle:@"Hey Batman!!!" message:[NSString stringWithFormat:@"Thanks for emailing your sidekick %@ with the batcave location from %@",name, email] preferredStyle:UIAlertControllerStyleAlert];
+    
+    
+    
+    UIAlertAction *button = [UIAlertAction actionWithTitle:@"I'M BATMAN!!!!!" style:UIAlertActionStyleDefault handler:^(UIAlertAction *action){
+        [alert dismissViewControllerAnimated:YES completion:nil];
+        }];
+    
+    [alert addAction:button];
+    
+    [self presentViewController:alert animated:YES completion:nil];
 }
-*/
 
+                     
 @end
+
