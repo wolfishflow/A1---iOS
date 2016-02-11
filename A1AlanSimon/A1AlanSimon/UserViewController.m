@@ -13,7 +13,7 @@
 @end
 
 @implementation UserViewController
-@synthesize sldAge, lblAge, submit, tfEmail, tfName;
+@synthesize sldAge, lblAge, submit, tfEmail, tfName, tfAddress, tfPhone, swGender, lbGender;
 
 
 
@@ -28,14 +28,29 @@
     // Dispose of any resources that can be recreated.
 }
 
+
 -(void)updateLabel
 {
+    if (swGender.isOn) {
+        lbGender.text = @"Male";
+    }
+    else{
+        lbGender.text = @"Female";
+    }
     //float age = sldAge.value;
     int age2 = sldAge.value;
     //NSString *strAge = [NSString stringWithFormat:@"%f", age];
     NSString *strAge2 = [NSString stringWithFormat:@"%d", age2];
     [lblAge setText:strAge2];
+    
+    
 }
+
+-(IBAction)switchValueChanged:(id)sender
+{
+    [self updateLabel];
+}
+
 
 -(IBAction)sliderValueChanged:(id)sender
 {

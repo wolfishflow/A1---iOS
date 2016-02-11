@@ -15,6 +15,10 @@
     IBOutlet UIBarButtonItem *submit;
     IBOutlet UITextField *tfName;
     IBOutlet UITextField *tfEmail;
+    IBOutlet UITextField *tfPhone;
+    IBOutlet UITextField *tfAddress;
+    IBOutlet UISwitch *swGender;
+    IBOutlet UILabel *lbGender;
 }
 
 @property (nonatomic, strong)IBOutlet UISlider *sldAge;
@@ -22,5 +26,9 @@
 @property (nonatomic, strong)IBOutlet UIBarButtonItem *submit;
 @property (nonatomic, strong)IBOutlet UITextField *tfName;
 @property (nonatomic, strong)IBOutlet UITextField *tfEmail;
+@property (nonatomic, strong)IBOutlet UITextField *tfPhone;
+@property (nonatomic, strong)IBOutlet UITextField *tfAddress;
+@property (nonatomic, strong)IBOutlet UISwitch *swGender;
+@property (nonatomic, strong)IBOutlet UILabel *lbGender;
 
 @end
